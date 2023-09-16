@@ -16,7 +16,7 @@
         <div class="container-fluid">
             <a class="navbar-brand" href="#" style="display: flex; justify-content: center; align-items: center;">
                 <div class="square_1"></div>
-                Nimaev Lab. JS
+                Nimaev Developer JS
               </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -33,20 +33,28 @@
       </nav>
 
       <main class="main_container">
-        <div class="container_about_me" id="about_me">
-            <div class="my_photo">
-                <img class="img" src="./img/IMG_5007.jpg" alt="My photo" style="width: 250px;">
+          <div class="container_about_me">
+            <div>
+              <h1 class="display-5" id="about_me">Обо мне</h1>
             </div>
-            <div class="text_about_me">
-                <h1 class="display-5">Привет!</h1>
-                <h1 class="display-5">Меня зовут Валерий</h1>
-                <p class="lead"> Мне 25 лет и я из города Улан-Удэ.</p>
-                <p class="lead"> Я Full-stack JS developer</p>
-                <p class="text-center">На моей страничке вы можете познакомиться со мной,
-                    узнать немного о моих увлечениях и посмотреть мои проекты.</p>
+            <div class="card mb-3" style="max-width: 70%;">
+                <div class="row g-0">
+                  <div class="col-md-4">
+                    <img src="./img/IMG_5007.jpg" class="img-fluid rounded-start" alt="Мое фото">
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body text-center">
+                      <h5 class="card-title">Привет, меня зовут Валерий!</h5>
+                      <p class="card-text">Мне 25 лет и я из города Улан-Удэ.<br>
+                        Я Full-stack JS developer. Занимаюсь разработкой сайтов и мобильных приложений.</p>
+                      <p class="card-text"><small class="text-body-secondary">
+                        На моей страничке вы можете познакомиться со мной,
+                        узнать немного о моих увлечениях и посмотреть мои проекты.</small>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-        </div>
-
         <div class="container_carousel">
             <div>
                 <h1 class="display-5" id="hobbies">Мои увлечения</h1>
@@ -95,31 +103,32 @@
             <div class="name">
                 <h1 class="display-5" id="projects">Мои работы</h1>
             </div>
-            <div class="projects">
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/books.png" class="card-img-top" alt="Фото проекта 1">
-                    <div class="card-body">
-                      <h5 class="card-title">Project 1</h5>
-                      <p class="card-text">Тут краткое описание Проекта 1</p>
-                      <a href="#" class="btn btn-dark">Посмотреть Проект</a>
-                    </div>
+            <div class="card-group">
+              <div class="card text-center">
+                <img src="./img/books.png" class="card-img-top" alt="Фото проекта 1">
+                <div class="card-body">
+                  <h5 class="card-title">Project 1</h5>
+                  <p class="card-text">Тут краткое описание Проекта 1</p>
+                  <a href="#" class="btn btn-dark">Посмотреть Проект</a>
+                  </p>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/parachute.png" class="card-img-top" alt="Фото проекта 2">
-                    <div class="card-body">
-                      <h5 class="card-title">Project 2</h5>
-                      <p class="card-text">Тут краткое описание Проекта 2</p>
-                      <a href="#" class="btn btn-dark">Посмотреть Проект</a>
-                    </div>
+              </div>
+              <div class="card text-center">
+                <img src="./img/parachute.png" class="card-img-top" alt="Фото проекта 2">
+                <div class="card-body">
+                  <h5 class="card-title">Project 2</h5>
+                  <p class="card-text">Тут краткое описание Проекта 2</p>
+                  <a href="#" class="btn btn-dark">Посмотреть Проект</a>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="./img/books.png" class="card-img-top" alt="Фото проекта 3">
-                    <div class="card-body">
-                      <h5 class="card-title">Project 3</h5>
-                      <p class="card-text">Тут краткое описание Проекта 3</p>
-                      <a href="#" class="btn btn-dark">Посмотреть Проект</a>
-                    </div>
+              </div>
+              <div class="card text-center">
+                <img src="./img/books.png" class="card-img-top" alt="Фото проекта 3">
+                <div class="card-body">
+                  <h5 class="card-title">Project 3</h5>
+                  <p class="card-text">Тут краткое описание Проекта 3</p>
+                  <a href="#" class="btn btn-dark">Посмотреть Проект</a>
                 </div>
+              </div>
             </div>
         </div>        
       </main>
